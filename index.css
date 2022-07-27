@@ -1,3 +1,7 @@
 #bright{
     filter: brightness(50%);
 }
+.font{
+    font-size: 15px;
+    font-weight: 400;
+}
