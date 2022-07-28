@@ -1,38 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
-body{
+body {
     font-family: 'Inter', sans-serif;
 }
-#bright{
+
+#bright {
     filter: brightness(50%);
 }
-.font{
+
+.font {
     font-size: 15px;
     font-weight: 400;
 }
-.company{
+
+.company {
     align-items: baseline;
     justify-content: space-between;
 }
+
 @media screen and (max-width:576px) {
-    .company{
+    .company {
         visibility: hidden;
     }
-    .col{
+
+    .col {
         display: flex;
         flex-direction: column;
     }
-    .working{
+
+    .working {
         display: flex;
         flex-direction: column;
     }
-    .working img{
+
+    .working img {
         width: 100%;
     }
 }
+
 @media screen and (min-width:576px) {
 
-    .working{
+    .working {
         display: flex;
         flex-direction: row;
         gap: 15px;
