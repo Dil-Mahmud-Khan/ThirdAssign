@@ -18,4 +18,24 @@ body{
     .company{
         visibility: hidden;
     }
+    .col{
+        display: flex;
+        flex-direction: column;
+    }
+    .working{
+        display: flex;
+        flex-direction: column;
+    }
+    .working img{
+        width: 100%;
+    }
+}
+@media screen and (min-width:576px) {
+
+    .working{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
 }
